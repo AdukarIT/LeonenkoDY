@@ -8,9 +8,10 @@
    <br>
    <a href="https://codepen.io/denleon403/pen/oNXqrrj">Задание_1b</a>
    <br>
-   <p>ДЗ_1</p>
+   <p>ДЗ_2</p>
   <a href="task_2/1/">Сервис ремонта мобильных телефонов</a>
-
+  <br>
+  <a href="task_2/2/">Магазин бытовой техники</a>
 
     
 
