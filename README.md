@@ -1,23 +1,11 @@
 # LeonenkoDY
 
+      
 
    
-   
-   
-   
-   
-   
-   
-   
-   <div>
-  <h1>Заголовок первого уровня</h1>
-  <p>Абзац текста</p>
-</div>
-<p><span style="color:red"> красный текст</span></p>
-<p><b> полужирный текст</b></p>
-<p><u>подчеркнутый текст</u></p>
-
-
+   <p>ДЗ_1</p>
+   <a href="https://codepen.io/denleon403/pen/KKpojEe">Задание_1а</a>
+ 
 
 <div> 
     
