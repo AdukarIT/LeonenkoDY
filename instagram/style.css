@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #32a869;
+
+}
+
+header{
+    display: flex;
+/*    justify-content: space-between;*/
+  align-items: center;
+    padding: 30px;
+}
+
+.img_logo{
+    width: 120px;
+    height: 120px;
+}
+.name{
+     margin-left: 120px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: #fff;
+}
+
+
+
+.LogIn{
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.right{
+    float: right
+}
