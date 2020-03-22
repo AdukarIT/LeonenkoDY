@@ -17,6 +17,7 @@
   
 
  <p>"Продвинутый HTML" (Практика 3)</p>
-  <a  href="instagram/">Магазин бытовой техники</a>
+ <br>
+  <a  href="instagram/">Instagram</a>
 
 
