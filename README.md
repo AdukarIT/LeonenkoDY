@@ -20,4 +20,4 @@
  <br>
   <a  href="instagram/">Instagram</a>
  <br>
-  <a  href="taxi/">Taxi</a>
+  <a  href="taxi.html">Taxi</a>
