@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+ 
+ 
+ 
+  <p style="text-align: center">Форма заказа такси</p>
+  
+  
+  <br>
+<p>Выбор языка</p>
+ <a href="order-en.html">En</a>
+ <br>
+  <a href="order-ru.html">Ru</a>
+  
+   <form name="pizza_order" action="/echo" method="post">
+  <p>
+        <label>Имя
+            <input type="text" name="name" autocomplete required>
+        </label>
+    </p>
+      <p>
+        <label>Адрес
+            <input type="text" name="address" autocomplete required>
+        </label>
+    </p>
+     <p>
+        <label>Телефон
+            <input type="phone" name="phone" autocomplete required>
+        </label>
+    </p>
+    
+     <p>
+        Тип оплаты:<br>
+        <label>
+            <input type="radio" name="base" value="base1" checked>
+            Наличные
+        </label>
+        <label>
+            <input type="radio" name="base" value="base2">
+           Карта
+        </label>
+    </p>
+    
+    <p>
+        <label>Тип авто:
+            <select name="pizza" required>
+                <option value="pz1">Базовый</option>
+                <option value="pz2">Премиум</option>
+                <option value="pz3">Люкс</option>
+                 </select>
+        </label>
+    </p>
+    
+   
+    
+    <p>
+    Комментарии <br>
+        <label>
+            <input type="checkbox" name="slice">
+            Минивэн
+        </label>
+        
+         <label>
+            <input type="checkbox" name="slice">
+            Детское кресло
+        </label>
+        <label>
+            <input type="checkbox" name="slice">
+            Англоязычный водитель
+        </label>
+    </p>
+    
+   
+  
+    
+    <p>
+        <label>Дополнительные пожелания<br>
+            <textarea cols="30" rows="5" name="additional_info"
+                placeholder="Время доставки, код домофона и пр."
+            ></textarea>
+        </label>
+    </p>
+    
+    <p>
+        <input type="submit" value="Заказать">
+    </p>
+</form>
+<p> Контактная информация ОАО "Вектор"</p>
+    
+     
+      
+        
+</body>
+</html>

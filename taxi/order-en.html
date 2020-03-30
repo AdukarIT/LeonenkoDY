@@ -5,43 +5,49 @@
     <title>Document</title>
 </head>
 <body>
-  <p style="text-align: center">Форма заказа такси</p>
+  <p style="text-align: center">Form taxi ordering</p>
+  
+  <br>
+<p>Language choise</p>
+ <a href="order-ru.html">Ru</a>
+ <br>
+  <a href="order-by.html">By</a>
   
    <form name="pizza_order" action="/echo" method="post">
   <p>
-        <label>Имя
+        <label>Name
             <input type="text" name="name" autocomplete required>
         </label>
     </p>
       <p>
-        <label>Адрес
+        <label>Adress
             <input type="text" name="address" autocomplete required>
         </label>
     </p>
      <p>
-        <label>Телефон
+        <label>Phone
             <input type="phone" name="phone" autocomplete required>
         </label>
     </p>
     
      <p>
-        Тип оплаты:<br>
+        Type of pay:<br>
         <label>
             <input type="radio" name="base" value="base1" checked>
-            Наличные
+            Cash
         </label>
         <label>
             <input type="radio" name="base" value="base2">
-           Карта
+           Card
         </label>
     </p>
     
     <p>
-        <label>Тип авто:
+        <label>Type auto:
             <select name="pizza" required>
-                <option value="pz1">Базовый</option>
-                <option value="pz2">Премиум</option>
-                <option value="pz3">Люкс</option>
+                <option value="pz1">Basic</option>
+                <option value="pz2">Premium</option>
+                <option value="pz3">Luxe</option>
                  </select>
         </label>
     </p>
@@ -49,19 +55,19 @@
    
     
     <p>
-    Комментарии <br>
+    Comments <br>
         <label>
             <input type="checkbox" name="slice">
-            Минивэн
+            miniven
         </label>
         
          <label>
             <input type="checkbox" name="slice">
-            Детское кресло
+            armchair
         </label>
         <label>
             <input type="checkbox" name="slice">
-            Англоязычный водитель
+            English driver
         </label>
     </p>
     
@@ -69,18 +75,18 @@
   
     
     <p>
-        <label>Дополнительные пожелания<br>
+        <label>Additional wishes<br>
             <textarea cols="30" rows="5" name="additional_info"
-                placeholder="Время доставки, код домофона и пр."
+                placeholder="Delivery time, intercom code, etc."
             ></textarea>
         </label>
     </p>
     
     <p>
-        <input type="submit" value="Заказать">
+        <input type="submit" value="Order">
     </p>
 </form>
-<p> Контактная информация ОАО "Вектор"</p>
+<p> Contact information of OJSC "Vector"</p>
     
      
       
