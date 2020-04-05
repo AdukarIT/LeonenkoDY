@@ -1,0 +1,117 @@
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+ul {
+    
+    display: block;
+    
+    margin-top: 1px;
+    padding: 0;
+    list-style: none;
+    
+}
+/*
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+*/
+.menu > li {
+    width: 15vw;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: darkseagreen;
+    text-decoration: none;
+}
+/*
+.menu > li > a:hover {
+    background-color: green;
+}
+*/
+.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid green;
+    width: 15vw;
+}
+.submenu > li {
+    display: block;
+     
+    
+}
+.submenu > li > a {
+   
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: darkseagreen;
+    text-decoration: none;
+}
+.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+
+.menu > li:hover > .submenu {
+    display: block;
+}
+
+.name{
+    float:left;
+     width: 25vw;
+     font: 22px 'Verdana';
+    margin-top: 3px;
+     margin-left: 3px;
+    border: 3px solid darkseagreen;
+    border-radius: 10px;
+    text-align: center
+      
+}
+.form{
+    clear: both;
+  position: relative;
+    top:80px;
+    width: 30vw;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    
+}
+.m_name{
+    font: 22px 'Verdana';
+    
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 8px; 
+    margin-top: 8px;
+}
+
+.spoiler >  input + .box {
+	display: none;
+}
+.spoiler >  input:checked + .box {
+	display: block;
+}
+.spoiler{
+    margin-top: 20px;
+}
+.contacts{
+
+    margin-left: 30px;
+}
