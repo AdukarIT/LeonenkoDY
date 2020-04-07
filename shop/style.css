@@ -88,7 +88,6 @@ ul:after {
     top:80px;
     width: 30vw;
     margin-left: 30px;
-    margin-bottom: 100px;
     
 }
 .m_name{
@@ -111,7 +110,7 @@ margin-bottom: 8px;
 .spoiler{
     margin-top: 20px;
 }
-.contacts{
 
-    margin-left: 30px;
+input[type="checkbox"]{
+    display: none;
 }
