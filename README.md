@@ -25,3 +25,8 @@
   
   <p>"Основы CSS. Позиционирование" (Практика 4)</p>
   <a  href="taxi/">shop</a>
+  <br>
+  <br>
+  <p>Задания по теме "CSS. Стилистическое оформление элементов" (Практика 5)</p>
+  <a  href="beach/beach.html">beach</a>
+   <a  href="instagram/">Instagram</a>
