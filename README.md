@@ -30,3 +30,7 @@
   <p>Задания по теме "CSS. Стилистическое оформление элементов" (Практика 5)</p>
   <a  href="beach/beach.html">beach</a>
    <a  href="instagram/">Instagram</a>
+<br>
+  <p>Задания по теме "Flex-box (Практика 6)</p>
+  <a  href="vk/index.html">Vk</a>
+   
